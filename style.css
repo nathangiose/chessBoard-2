@@ -1,0 +1,27 @@
+.chessboard {
+  width: 640px;
+  height: 640px;
+  margin: 20px;
+  border: 25px solid;
+  /* border-image: linear-gradient(135deg, #ff0000 0%, #ff00a8 100%) 1; */
+}
+.black {
+  float: left;
+  width: 80px;
+  height: 80px;
+  background-color: #ff0000;
+  font-size: 50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.white {
+  float: left;
+  width: 80px;
+  height: 80px;
+  background-color: #ff00a8;
+  font-size: 50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
